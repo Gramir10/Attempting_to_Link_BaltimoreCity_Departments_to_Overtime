@@ -1,4 +1,4 @@
-# Attempting_to_Link_BaltimoreCity_Departments_to_Overtime
+# Attempting to Link BaltimoreCity Departments to Overtime
 Organization and systematic analysis to ID departments that should be under review
 
 I also know that a lot of health department locations were listed with specific the other year would love for he knows not the case different keep it consistent I ever moved the specific identification card application
@@ -38,8 +38,10 @@ One sample graph generated from the data analysis, includes data from all the Ho
 ![alt text](https://github.com/Gramir10/Attempting_to_Link_BaltimoreCity_Departments_to_Overtime/blob/master/G4.png)
 ![alt text](https://github.com/Gramir10/Attempting_to_Link_BaltimoreCity_Departments_to_Overtime/blob/master/G5.png)
 
--0.158713687	* ANNUAL 2014 +	0.897846506	*ANNUAL 2016+	-0.257523929	*ANNUAL 2018+	0.634225738	*ANNUAL 2019	-1566.895648	= Average Gross Annual Pay
-In an indeal situation, all of these coefficents should be 0.25.									
+(-0.158713687* ANNUAL 2014)+(0.897846506*ANNUAL 2016)+(-0.257523929*ANNUAL 2018)+(0.634225738*ANNUAL 2019)-1566.89= Average Gross Annual Pay (In Dollars)
+
+In an ideal situation, all of these coefficents should be 0.25. (Reflecting that Annual = Gross in a 1:1 ratio, and each year is 1/4 of the average)
+
 Accounting for the fact that Overtime is occuring, some deviation is to be expected.									
 As the R-Square Value is 0.8, we find high correlation between annual salaries, and the average gross salary.									
 While 80% of cases can be explained by this model, what is of interest is the 20% that cannot be explained.									
