@@ -29,23 +29,22 @@ Areas segregated by State, using Name ID.
 Pivot Tables were formed from data.
 
 Data retrieved from: https://data.baltimorecity.gov/browse?category=City+Government
-Excel Sheet where the data is primarily analyzed: https://github.com/Gramir10/Attempting_to_Link_BaltimoreCity_Departments_to_Overtime/blob/master/Analysis%20of%20Overtime%20per%20Department.xlsx
+Excel Sheet where the data is primarily analyzed: https://github.com/Gramir10/Attempting_to_Link_BaltimoreCity_Departments_to_Overtime/blob/master/Analysis%20of%20Overtime%20per%20Department(Edits).xlsx
+ 
 
-One sample graph generated from the data analysis, includes data from all the Household Income Data from North Boston. Stratified by race and ethnicity. 
+![alt text](https://github.com/Gramir10/Attempting_to_Link_BaltimoreCity_Departments_to_Overtime/blob/master/G4.png)
+![alt text](https://github.com/Gramir10/Attempting_to_Link_BaltimoreCity_Departments_to_Overtime/blob/master/G5.png)
 ![alt text](https://github.com/Gramir10/Attempting_to_Link_BaltimoreCity_Departments_to_Overtime/blob/master/G1.png)
 ![alt text](https://github.com/Gramir10/Attempting_to_Link_BaltimoreCity_Departments_to_Overtime/blob/master/G2.png)
 ![alt text](https://github.com/Gramir10/Attempting_to_Link_BaltimoreCity_Departments_to_Overtime/blob/master/G3.png)
-![alt text](https://github.com/Gramir10/Attempting_to_Link_BaltimoreCity_Departments_to_Overtime/blob/master/G4.png)
-![alt text](https://github.com/Gramir10/Attempting_to_Link_BaltimoreCity_Departments_to_Overtime/blob/master/G5.png)
 
 (-0.158713687* ANNUAL 2014)+(0.897846506*ANNUAL 2016)+(-0.257523929*ANNUAL 2018)+(0.634225738*ANNUAL 2019)-1566.89= Average Gross Annual Pay (In Dollars)
 
 In an ideal situation, all of these coefficents should be 0.25. (Reflecting that Annual = Gross in a 1:1 ratio, and each year is 1/4 of the average)
 
-Accounting for the fact that Overtime is occuring, some deviation is to be expected.									
-As the R-Square Value is 0.8, we find high correlation between annual salaries, and the average gross salary.									
+Accounting for the fact that some worker are hourly, with paid overtime, some deviation is to be expected.									
+As the R-Square Value is 0.8, we find high correlation between annual salaries, and the average gross salary. (Not a suprise)								
 While 80% of cases can be explained by this model, what is of interest is the 20% that cannot be explained.									
-									
 By using this model, we can accurately predict 80% of people's gross salary's (thus having a more accurate budget).									
-Another model is being worked on to capture the last 20%, with ways of automatically track them.									
+Another model is being worked on to capture the last 20% (Which will likely be the hourly workers with overtime, with ways of automatically tracking the largest deviations.									
 
