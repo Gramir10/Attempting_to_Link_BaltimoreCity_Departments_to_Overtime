@@ -1,8 +1,6 @@
 # Attempting_to_Link_BaltimoreCity_Departments_to_Overtime
 Organization and systematic analysis to ID departments that should be under review
 
-2014 / 140 view of Summer individuals had been listed as having a salary but no payments seem to have been made and the zero Claire Claire or categorization error
-
 I also know that a lot of health department locations were listed with specific the other year would love for he knows not the case different keep it consistent I ever moved the specific identification card application
 
 Also note that since the blue-chip and youth summer positions were removed post-2014 they were not included in the analysis of the state of either
@@ -37,3 +35,15 @@ One sample graph generated from the data analysis, includes data from all the Ho
 ![alt text](https://github.com/Gramir10/Attempting_to_Link_BaltimoreCity_Departments_to_Overtime/blob/master/G1.png)
 ![alt text](https://github.com/Gramir10/Attempting_to_Link_BaltimoreCity_Departments_to_Overtime/blob/master/G2.png)
 ![alt text](https://github.com/Gramir10/Attempting_to_Link_BaltimoreCity_Departments_to_Overtime/blob/master/G3.png)
+![alt text](https://github.com/Gramir10/Attempting_to_Link_BaltimoreCity_Departments_to_Overtime/blob/master/G4.png)
+![alt text](https://github.com/Gramir10/Attempting_to_Link_BaltimoreCity_Departments_to_Overtime/blob/master/G5.png)
+
+-0.158713687	* ANNUAL 2014 +	0.897846506	*ANNUAL 2016+	-0.257523929	*ANNUAL 2018+	0.634225738	*ANNUAL 2019	-1566.895648	= Average Gross Annual Pay
+In an indeal situation, all of these coefficents should be 0.25.									
+Accounting for the fact that Overtime is occuring, some deviation is to be expected.									
+As the R-Square Value is 0.8, we find high correlation between annual salaries, and the average gross salary.									
+While 80% of cases can be explained by this model, what is of interest is the 20% that cannot be explained.									
+									
+By using this model, we can accurately predict 80% of people's gross salary's (thus having a more accurate budget).									
+Another model is being worked on to capture the last 20%, with ways of automatically track them.									
+
