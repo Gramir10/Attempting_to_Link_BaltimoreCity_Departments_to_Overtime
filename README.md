@@ -9,7 +9,7 @@
 * Regression analysis from Data Analyze Tool was performed on Annual Salaries in relation to Gross Annual Salary
 * Scatter Plot graphic formed by comparing average annual vs average gross salaries
 
-### Data Selection Criteria, and Minor Changes###
+### Data Selection Criteria, and Minor Changes ###
 * To be included in the model, people must be currently working for the city, and continuously employed by the city since 2014.
 * Health Department had several locations marked out, they were pooled together, as the location data was inconsistent year to year.
 * blue-chip and youth summer positions were removed post-2014, so they were filtered out per point #1.
